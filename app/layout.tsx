@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Freeshopps Admin Panel",
   description: "Admin panel for Freeshopps platform",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
