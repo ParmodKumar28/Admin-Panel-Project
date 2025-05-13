@@ -204,7 +204,7 @@ export default function ArticlesPage() {
                 </TableCell>
               </TableRow>
             ) : (
-              articles.map((article) => (
+              articles.docs.map((article) => (
                 <TableRow key={article._id}>
                   <TableCell>
                     <div className="flex items-center gap-3">

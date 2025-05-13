@@ -71,7 +71,7 @@ export default function ProductsPage() {
         throw new Error("Authentication token not found")
       }
 
-      let url = `https://mamun-reza-freeshops-backend.vercel.app/api/v1/admin/allProductForAdmin`
+      let url = `https://mamun-reza-freeshops-backend.vercel.app/api/v1/admin/allProductForAdmin?page=${page}&limit=10`
 
       if (search) {
         url += `&search=${encodeURIComponent(search)}`
